@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>NOFA Enterprise Analysis Workbook | BeetCLock</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+  </head>
+
+  <body>
+  	<!-- Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./index.html">BeetClock</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./download.html">Download</a></li>
+            <li><a href="#tutorial">User Manual</a></li>
+            <li class="active"><a href="#nofa">NOFA Workbook</a></li>                        
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+          	<li><a href="#contact">Contact</a></li>
+          	<li><a href="#about">About</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main content container -->
+    <div class="container">
+      <br/>
+      <div class="row">
+        <div class="col-md-6">
+          <h1>The NOFA Enterprise Analysis Workbook</h1>
+          <p>The NOFA Enterprise Analysis Workbook is a free whole-farm digital recordkeeping system developed by <a href="http://richardwiswall.com/">Richard Wiswall</a>, author of <i><a href="http://www.amazon.com/Organic-Farmers-Business-Handbook-Complete/dp/1603581421/">The Organic Farmer's Business Handbook</a></i>, in conjunction with the <a href="http://www.nofa.org/">Northeast Organic Farming Association</a>. The Enterprise Analysis Workbook keeps track of all farm expenses and generates individualized budgets for each crop.</p>
+          <p>Beetclock can send labor hours and equipment hours directly to the Enterprise Analysis Workbook. The app can also synchronize its list of tractors and implements with those listed in the workbook.</p>
+          <p><a class="btn btn-link" href="./download.html#nofa" role="button">Download the NOFA Enterprise Analysis Workbook</a></p>
+        </div>
+        <div class="col-md-6">
+          <img src="NOFA_workbook_example.jpg" class="img-responsive" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <h3>Getting started with BeetClock and the NOFA Enterprise Analysis Workbook:</h3>
+          <p>For BeetClock to send work times to your workbook and synch equipment, you will need to have your copy of the Enterprise Analysis Workbook located in your Google Drive.</p>
+          <ol>
+            <li>Log in to your Google Drive account and upload the workbook to your Google Drive.</li>
+            <li>In the Google Drive files viewer, right click on the workbook, mouse over "Open With," and select "Google Sheets."</li>
+          </ol>
+          <p>This will create a new copy of the file in your Google Drive that BeetClock can read and edit.</p>
+          <br/>
+          <h4>Sending work times to your Enterprise Analysis Workbook:</h4>
+          <p>Once you set up the workbook in your Google Drive, you'll have the option to send records from BeetClock directly to a sheet in the NOFA workbook.</p>
+          <ol>
+            <li>Select "Fill NOFA Workbook" in the BeetClock menu.</li>
+            <li>You will be prompted to select a Google account – select the account where your NOFA workbook is stored.</li>
+            <li>Use the drop down menus to select the file name of the NOFA workbook, and the name of the sheet within the workbook that you want to write to. This should be one of the crop budget sheets.</li>
+            <li>Select the name of the crop that you want to write to this sheet.</li>
+            <li>Select the start date for the data by tapping "Select a New Date" and picking the date on the spinners. All records for the selected crop will be written to the sheet beginning on the date you select.</li>
+            <li>Tap "Write to Workbook" to write your data to the NOFA workbook.  The app will fill in the Person Hours and Equipment Hours columns of the selected crop budget sheet in your NOFA workbook.</li>
+          </ol>
+          <br/>
+          <h4>Synchronizing equipment with your Enterprise Analysis workbook:</h4>
+          <p>BeetClock can synchronize its list of tractors and implements with the tractors and implements listed in your Enterprise Analysis workbook.  This will help you to keep track of equipment hours in the field.</p>
+          <ol>
+            <li>Navigate to the "Manage Equipment" screen in the BeetClock menu.</li>
+            <li>Tap the button next to "Import Equipment."</li>
+            <li>Select the name of the workbook you would like to import from, and tap "Import Equipment." Note that this will overwrite the previous list of equipment in BeetClock.</li>
+          </ol>
+          <p>Once you synchronize BeetClock's equipment list with the NOFA workbook, we recommend that you do <b>not</b> add any additional equipment as this can create compatibility issues.</p>
+        </div>
+      </div>
+
+    </div><!-- /container -->
+
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+
+
+  </body>
